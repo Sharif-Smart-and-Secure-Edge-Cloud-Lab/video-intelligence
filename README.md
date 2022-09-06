@@ -1,11 +1,21 @@
 # video-intelligence
 
 In this project, i tried to implement an efficient face recognition for edge devices.\
+## How to run models?!
+in folder of each model, we have only one python code, for example for model 3, we have dnnRec.py, just run the file:\
+```
+    python3 dnnRec.py 
+```
+### Requirements
+```
+numpy
+dlib
+opencv
+```
 ## Device installation and camera
-If you are using an ARM-based device, on of the good choices as OS, is Armbian OS, which is based on ubuntu.
-
-
-
+If you are using an ARM-based device, on of the good choices as OS, is Armbian OS, which is based on ubuntu.\
+first, we were using IPcamera, but the camera had delay,by changing the camera to a simple USB camera, delay was improved, and decreased from 5-6 seconds to 1-2 seconds:\
+![Hardware setup](/img5.jpg "Hardware setup")
 First model:\
 This model is implemented with help of Amin Khodaverdian. this model uses Haarcascade and opencv, and uses a few pictures to learn somebody's face.
 The performance wasn't satisfing, e.g. it had many false positive face detections.\
@@ -15,7 +25,9 @@ In this method, we've used dlib library, which is a Resnet-34 basd Neural networ
 but in difficult scenarios, it may not detect and recognize a face. also its performance may drop in recognition of a face with mask.\
 \
 Third model:\
-In this model, we implement a Resnet-10 based model. this model performs very well in almost any scenario, but it has two major drawbacks:\
+In this state of the art model, we used an implementation of a Resnet-10 based model. good parts of this model is using a git repository, which is the official implementation of paper.
+
+this model performs very well in almost any scenario, but it has two major drawbacks:\
     a) It is hungery for CPU usage!\
     b) False positive rate is higher than second model.\
     
@@ -35,6 +47,11 @@ https://learnopencv.com/face-detection-opencv-dlib-and-deep-learning-c-python/\
 \As we see, Opencv's dnn has much better performance with trade-off of higher CPU usage.
 
 ## Results of tests:
+### Model 1 testing:
+![comparison](/img6comp.jpg "dnn dlib haarcascade comparison")
+
 ### Model 2 testing:
+![comparison](/img7comp.jpg "dnn dlib haarcascade comparison")
 
 ### Model 3 testing:
+![comparison](/img8comp.jpg "dnn dlib haarcascade comparison")
