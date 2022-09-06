@@ -51,11 +51,24 @@ https://learnopencv.com/face-detection-opencv-dlib-and-deep-learning-c-python/\
 ![comparison](/img6.png "dnn dlib haarcascade comparison")
 
 ### Model 2 testing:
+Detecting and recognizing multiple faces:\
 ![comparison](/img6.png "Model2")
+Distinguishing similar faces from each other:\
 ![comparison](/img7.png "Model2")
+Recognizing faces with mask:\
 ![comparison](/img8.png "Model2")
 
 ### Model 3 testing:
+This model is implemented using OpenCV Face Detection and Face Recognition(ONNX format) modules.
+Benchmarks of the model:
+![comparison](/img11.png "Model2")
+YuNet(Face detection) is a light-weight, fast and accurate face detection model, which achieves 0.834(AP_easy), 0.824(AP_medium), 0.708(AP_hard) on the WIDER Face validation set.
+
+[YuNet repository](https://github.com/opencv/opencv_zoo/tree/master/models/face_detection_yunet)
+
+SFace(Face recognition): Sigmoid-Constrained Hypersphere Loss for Robust Face Recognition
+[SFace repository](https://github.com/opencv/opencv_zoo/tree/master/models/face_recognition_sface)
+
 A small demo of model:\
 ![comparison](/Model3Test.gif "dnn dlib haarcascade comparison")\
 As we see, it can recognize a known face, from different angles.\
