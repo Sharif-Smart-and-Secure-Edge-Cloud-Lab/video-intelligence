@@ -57,6 +57,6 @@ https://learnopencv.com/face-detection-opencv-dlib-and-deep-learning-c-python/\
 
 ### Model 3 testing:
 A small demo of model:\
-![comparison](/Model3Test.gif "dnn dlib haarcascade comparison")
-Neural network can detect and recognize faces from long distances, easily!\
+![comparison](/Model3Test.gif "dnn dlib haarcascade comparison")\
+The model can detect and recognize faces from long distances, easily!\
 ![comparison](/img10.png "dnn dlib haarcascade comparison")
