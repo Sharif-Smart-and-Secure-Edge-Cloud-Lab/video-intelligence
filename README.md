@@ -20,3 +20,9 @@ In this model, we implement a Resnet-10 based model. this model performs very we
 
 A useful webpage for comparing differeent models, which proves the dominanc of dnn method of Opencv, compared to Haarcascade, and dlib library:\
 https://learnopencv.com/face-detection-opencv-dlib-and-deep-learning-c-python/\
+
+![comparison](/img1comp.png "dnn dlib haarcascade comparison")
+
+![comparison](/img2comp.png "dnn dlib haarcascade comparison")
+
+![comparison](/img3comp.png "dnn dlib haarcascade comparison")
