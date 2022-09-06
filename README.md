@@ -58,5 +58,6 @@ https://learnopencv.com/face-detection-opencv-dlib-and-deep-learning-c-python/\
 ### Model 3 testing:
 A small demo of model:\
 ![comparison](/Model3Test.gif "dnn dlib haarcascade comparison")\
+As we see, it can recognize a known face, from different angles.\
 The model can detect and recognize faces from long distances, easily!\
 ![comparison](/img10.png "dnn dlib haarcascade comparison")
