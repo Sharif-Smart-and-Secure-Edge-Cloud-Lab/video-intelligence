@@ -57,3 +57,5 @@ https://learnopencv.com/face-detection-opencv-dlib-and-deep-learning-c-python/\
 
 ### Model 3 testing:
 ![comparison](/img8.png "dnn dlib haarcascade comparison")
+![comparison](/Model3Test.gif "dnn dlib haarcascade comparison")
+
