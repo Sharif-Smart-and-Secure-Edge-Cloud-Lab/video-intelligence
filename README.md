@@ -1,6 +1,11 @@
 # video-intelligence
 
 In this project, i tried to implement an efficient face recognition for edge devices.\
+## Device installation and camera
+If you are using an ARM-based device, on of the good choices as OS, is Armbian OS, which is based on ubuntu.
+
+
+
 First model:\
 This model is implemented with help of Amin Khodaverdian. this model uses Haarcascade and opencv, and uses a few pictures to learn somebody's face.
 The performance wasn't satisfing, e.g. it had many false positive face detections.\
@@ -21,8 +26,15 @@ In this model, we implement a Resnet-10 based model. this model performs very we
 A useful webpage for comparing differeent models, which proves the dominanc of dnn method of Opencv, compared to Haarcascade, and dlib library:\
 https://learnopencv.com/face-detection-opencv-dlib-and-deep-learning-c-python/\
 
-![comparison](/img1comp.png "dnn dlib haarcascade comparison")
+![comparison](/img1comp.jpg "dnn dlib haarcascade comparison")
 
-![comparison](/img2comp.png "dnn dlib haarcascade comparison")
+![comparison](/img2comp.jpg "dnn dlib haarcascade comparison")
 
-![comparison](/img3comp.png "dnn dlib haarcascade comparison")
+![comparison](/img3comp.jpg "dnn dlib haarcascade comparison")
+
+\As we see, Opencv's dnn has much better performance with trade-off of higher CPU usage.
+
+## Results of tests:
+### Model 2 testing:
+
+### Model 3 testing:
