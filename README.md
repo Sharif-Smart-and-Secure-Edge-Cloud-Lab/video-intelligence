@@ -61,12 +61,13 @@ Recognizing faces with mask:\
 ### Model 3 testing:
 This model is implemented using OpenCV Face Detection and Face Recognition(ONNX format) modules.
 Benchmarks of the model:
-![comparison](/img11.png "Model2")
+![comparison](/img11.png "Model2")\
 YuNet(Face detection) is a light-weight, fast and accurate face detection model, which achieves 0.834(AP_easy), 0.824(AP_medium), 0.708(AP_hard) on the WIDER Face validation set.
 
 [YuNet repository](https://github.com/opencv/opencv_zoo/tree/master/models/face_detection_yunet)
 
 SFace(Face recognition): Sigmoid-Constrained Hypersphere Loss for Robust Face Recognition
+
 [SFace repository](https://github.com/opencv/opencv_zoo/tree/master/models/face_recognition_sface)
 
 A small demo of model:\
