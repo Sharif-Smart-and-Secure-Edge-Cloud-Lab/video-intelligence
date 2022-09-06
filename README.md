@@ -2,7 +2,7 @@
 
 In this project, i tried to implement an efficient face recognition for edge devices.\
 ## How to run models?!
-in folder of each model, we have only one python code, for example for model 3, we have dnnRec.py, just run the file:\
+in folder of each model, we have only one python code, for example for model 3, we have dnnRec.py, just run the file:
 ```
     python3 dnnRec.py 
 ```
